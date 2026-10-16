@@ -1,0 +1,182 @@
+[
+  {
+    "id": "p1",
+    "name": "FASTER FT-71 - شاحن جداري بمنفذين USB",
+    "oldPrice": 30,
+    "price": 30,
+    "category": "شواحن",
+    "image": "/static/images/faster-ft71.jpg",
+    "desc": "شاحن جداري عملي بمنفذين USB للاستخدام اليومي."
+  },
+  {
+    "id": "p2",
+    "name": "LDNIO LS543 - كيبل Type-C إلى Lightning",
+    "oldPrice": 20,
+    "price": 20,
+    "category": "كيابل",
+    "image": "/static/images/ldnio-ls543.jpg",
+    "desc": "كيبل Type-C إلى Lightning للشحن والاستخدام اليومي."
+  },
+  {
+    "id": "p3",
+    "name": "OVAST OT-15 - كيبل Type-C 3.1A",
+    "oldPrice": 10,
+    "price": 10,
+    "category": "كيابل",
+    "image": "/static/images/ovast-ot15.jpg",
+    "desc": "كيبل Type-C للشحن السريع بقوة 3.1A."
+  },
+  {
+    "id": "p4",
+    "name": "NITO N-100 - سماعة سلكية بميكروفون",
+    "oldPrice": 10,
+    "price": 10,
+    "category": "سماعات",
+    "image": "/static/images/nito-n100.jpg",
+    "desc": "سماعة سلكية بميكروفون وصوت واضح."
+  },
+  {
+    "id": "p5",
+    "name": "iPlus I-18 - كيبل متعدد المداخل 3 في 1",
+    "oldPrice": 20,
+    "price": 20,
+    "category": "كيابل",
+    "image": "/static/images/iplus-i18.jpg",
+    "desc": "كيبل شحن متعدد المداخل باللون الأسود يناسب الآيفون والتايب سي والجالكسي."
+  },
+  {
+    "id": "p6",
+    "name": "GLOW GLH-32 - حامل مغناطيسي 360°",
+    "oldPrice": 30,
+    "price": 30,
+    "category": "سيارات",
+    "image": "/static/images/glow-glh32.jpg",
+    "desc": "حامل جوال مغناطيسي للسيارة مع دوران 360 درجة."
+  },
+  {
+    "id": "p7",
+    "name": "NITO N-H673 - سماعة رأس Type-C",
+    "oldPrice": 20,
+    "price": 20,
+    "category": "سماعات",
+    "image": "/static/images/nito-nh673.jpg",
+    "desc": "سماعة سلكية بمنفذ Type-C للأجهزة الحديثة."
+  },
+  {
+    "id": "p8",
+    "name": "KUMS - كيبل Type-C قماش 1.2m 3.4A",
+    "oldPrice": 10,
+    "price": 10,
+    "category": "كيابل",
+    "image": "/static/images/kums-typec-1200mm.jpg",
+    "desc": "كيبل Type-C قماش بطول 1.2 متر وقوة 3.4A."
+  },
+  {
+    "id": "p9",
+    "name": "WINMFIX LED - لمبة 3 في 1 وحامل جوال",
+    "oldPrice": 30,
+    "price": 30,
+    "category": "متنوع",
+    "image": "/static/images/winmfix-led.jpg",
+    "desc": "لمبة LED متعددة الاستخدامات وحامل للجوال."
+  },
+  {
+    "id": "p10",
+    "name": "X.LOOD X-73 - كيبل Type-C 3.1A",
+    "oldPrice": 10,
+    "price": 10,
+    "category": "كيابل",
+    "image": "/static/images/xlood-x73.jpg",
+    "desc": "كيبل Type-C للشحن بقوة 3.1A."
+  },
+  {
+    "id": "p11",
+    "name": "UNIVERSAL CLIP - حامل مرآة للسيارة",
+    "oldPrice": 30,
+    "price": 30,
+    "category": "سيارات",
+    "image": "/static/images/universal-clip.jpg",
+    "desc": "حامل جوال يثبت على مرآة السيارة."
+  },
+  {
+    "id": "p12",
+    "name": "GLOW GLH-29 - حامل مغناطيسي للسيارة",
+    "oldPrice": 30,
+    "price": 30,
+    "category": "سيارات",
+    "image": "/static/images/glow-glh29.jpg",
+    "desc": "حامل مغناطيسي عملي للسيارة."
+  },
+  {
+    "id": "p13",
+    "name": "NITO CH-512 - شاحن جداري بمنفذين",
+    "oldPrice": 30,
+    "price": 30,
+    "category": "شواحن",
+    "image": "/static/images/nito-ch512.jpg",
+    "desc": "شاحن جداري بمنفذين للشحن."
+  },
+  {
+    "id": "p14",
+    "name": "PROMASS PM-8509 - شاحن PD+QC 38W",
+    "oldPrice": 30,
+    "price": 30,
+    "category": "شواحن",
+    "image": "/static/images/promass-pm8509.jpg",
+    "desc": "شاحن سريع بتقنية PD وQC بقوة 38W."
+  },
+  {
+    "id": "p15",
+    "name": "GLOW GLH-26 - حامل مغناطيسي صغير للسيارة",
+    "oldPrice": 30,
+    "price": 30,
+    "category": "سيارات",
+    "image": "/static/images/glow-glh26.jpg",
+    "desc": "حامل مغناطيسي صغير وعملي للسيارة."
+  },
+  {
+    "id": "p16",
+    "name": "Goui Wall-I - شاحن جداري بمنفذين USB مع كابل آيفون",
+    "oldPrice": 100,
+    "price": 100,
+    "category": "شواحن",
+    "image": "/static/images/new-goui-charger.jpg",
+    "desc": "شاحن جداري قوي وسريع مع منفذين USB بقدرة 3.1A وكابل Lightning بطول 100 سم معتمد من أبل. (ضمان على المنتج)"
+  },
+  {
+    "id": "p17",
+    "name": "NITO NT-H954 - سماعات لاسلكية T Series",
+    "oldPrice": 100,
+    "price": 100,
+    "category": "سماعات",
+    "image": "/static/images/new-nito-h954.jpg",
+    "desc": "سماعات أذن لاسلكية بتقنية Pure Bass وضبط باللمس مع استشعار داخل الأذن ومقاومة للماء للرياضة. (ضمان على المنتج)"
+  },
+  {
+    "id": "p18",
+    "name": "NITO NT-TW312 - سماعات لاسلكية شحن لاسلكي",
+    "oldPrice": 100,
+    "price": 100,
+    "category": "سماعات",
+    "image": "/static/images/new-nito-tw312.jpg",
+    "desc": "سماعات أذن لاسلكية تدعم الشحن اللاسلكي وعلبة شحن 400mAh وبلوتوث 5.0 واستشعار ذكي. (ضمان على المنتج)"
+  },
+  {
+    "id": "p19",
+    "name": "Anker PowerLine III - كيبل USB-C إلى Lightning",
+    "oldPrice": 60,
+    "price": 60,
+    "category": "كيابل",
+    "image": "/static/images/new-anker-cable.jpg",
+    "desc": "كيبل شحن سريع ومزامنة بطول 0.9m يتضمن تحملاً لأكثر من 25,000 انحناءة ومُعتمد من أبل. (ضمان على المنتج)"
+  },
+  {
+    "id": "p20",
+    "name": "Apple EarPods Lightning - سماعة أبل سلكية",
+    "oldPrice": 60,
+    "price": 60,
+    "category": "سماعات",
+    "image": "/static/images/new-apple-earpods.jpg",
+    "desc": "سماعة أبل سلكية بمدخل Lightning وصوت عالي الدقة ووحدة تحكم ومكالمات. (ضمان على المنتج)"
+  }
+]

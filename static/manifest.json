@@ -1,0 +1,17 @@
+{
+  "name": "NEXO STORE",
+  "short_name": "NEXO",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f7fa",
+  "theme_color": "#0876d9",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "/static/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

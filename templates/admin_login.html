@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>دخول الإدارة | NEXO STORE</title>
+<style>
+:root{--bg:#0b1020;--panel:#131b31;--line:#273450;--text:#f5f7ff;--muted:#a8b4ce;--accent:#8b5cf6;--gold:#f4c95d;--red:#fb7185}*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:20px;background:radial-gradient(circle at top right,#292052 0,transparent 42%),var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif}.card{width:min(100%,430px);padding:30px;border:1px solid var(--line);border-radius:24px;background:rgba(19,27,49,.95);box-shadow:0 25px 80px #0005}.logo{font-size:25px;font-weight:900;letter-spacing:1px}.logo span{color:var(--gold)}h1{margin:22px 0 8px;font-size:25px}.muted{color:var(--muted);line-height:1.8;font-size:14px}label{display:block;margin:22px 0 8px;font-size:14px}input{width:100%;padding:14px;border-radius:12px;border:1px solid var(--line);background:#0b1225;color:white;font:inherit;outline:none}input:focus{border-color:var(--accent)}button{width:100%;border:0;border-radius:12px;margin-top:16px;padding:14px;background:linear-gradient(135deg,#8b5cf6,#6d28d9);color:white;font:inherit;font-weight:bold;cursor:pointer}.alert{margin-top:14px;padding:12px;border-radius:10px;background:#51202e;color:#ffd8df;font-size:14px;line-height:1.7}.hint{margin-top:16px;padding:12px;border:1px solid #7c5b25;border-radius:10px;color:#ffe8a6;font-size:13px;line-height:1.8}a{color:#c4b5fd}
+</style></head>
+<body><main class="card"><div class="logo">NEXO <span>STORE</span></div><h1>لوحة إدارة المتجر</h1><p class="muted">سجّل الدخول لمتابعة الطلبات والمبيعات وتحديث حالات الشحن.</p>
+{% with messages = get_flashed_messages(with_categories=true) %}{% for category, message in messages %}<div class="alert">{{ message }}</div>{% endfor %}{% endwith %}
+{% if not password_configured %}<div class="hint">لم تُضبط كلمة مرور الإدارة بعد. انسخ <b>.env.example</b> إلى <b>.env</b> وأضف السطر <b>ADMIN_PASSWORD=كلمة_مرور_قوية</b> ثم أعد تشغيل المتجر.</div>{% endif %}
+<form method="post" action="/admin/login"><label for="password">كلمة مرور الإدارة</label><input id="password" name="password" type="password" autocomplete="current-password" required><button type="submit">تسجيل الدخول</button></form><p class="muted" style="margin-bottom:0"><a href="/">العودة إلى المتجر</a></p></main></body></html>

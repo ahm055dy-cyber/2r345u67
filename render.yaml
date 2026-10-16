@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: nexo-store
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: NEXO_WHATSAPP
+        sync: false
+      - key: NEXO_COUPON_CODE
+        value: NEXO50
